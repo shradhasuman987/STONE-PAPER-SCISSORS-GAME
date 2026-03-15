@@ -20,7 +20,7 @@ const drawGame = () => {
    msg.style.backgroundColor = "#081b31";
   };
 
-
+// winner
   const showWinner = (userWin, userChoice, computerChoice) => {
     if (userWin) {
         userScore++;
